@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+
+
+#container{
+  width: 100%;
+  max-width: 588px;
+  margin: auto;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+  
+}
+
+body{
+  background-color:rgb(38, 105, 250);
+  background-image: url(./scr/alternative-alternative-energy-blue-411592.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+    
+}
+  
+
+.titulo{
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+#sol{
+ position: absolute;
+ top: 8%;
+ left: 21%;
+ 
+}
+
+.usuario{
+position: absolute;
+top:0%;
+left: 96%;
+}
+
+
+
+.carrinho{
+  position: absolute;
+  top: -1%;
+  left: 91%;
+
+
+}
+
+.subtitulo{
+text-align: center;
+color: aliceblue;
+font-family: sans-serif;
+}
+
+
+
+
+
+header {
+  color: white;
+  padding: 15px;
+  position: absolute;
+  top: -1%;
+  left: 0;
+  
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: -31%;
+  left: -33%;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+#closeMenu {
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+ 
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#toggleMenu {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+  
+  margin-left: 1%;
+  height: 1%;
+
+}
+
+
+/*Venda das placas*/
+
+.placas{
+  position: absolute;
+  top: 150% ;
+  left: 8% ;
+  display: inline;
+ 
+  
+}
+
+.placa{
+  position: absolute;
+  top: 150% ;
+  left: 40% ;
+  display: inline;
+  
+}
+
+
+.placa1{
+  position: absolute;
+  top: 150% ;
+  left: 80% ;
+  display: inline;
+}
+
+.placa2{
+  position: absolute;
+  top: 250% ;
+  left: 6% ;
+  display: inline;
+}
+
+.placa3{
+  position: absolute;
+  top: 250% ;
+  left: 38% ;
+  display: inline;
+}
+
+.placa4{
+  position: absolute;
+  top: 250% ;
+  left: 78% ;
+  display: inline;
+}
+
+
+ul li {
+  color: #ffffff;
+  display: inline;
+ 
+  
+  
+  
+}
+
+button{
+  background: none;
+  background-color: #000000;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: ease-out 0.4s;
+  margin-left: 15%;
+  transform: translate(1px);
+  border: 2px solid rgb(255, 254, 254);
+  display: inline-block;
+  
+ 
+}
+
+button:hover{
+  background-color: rgb(0, 71, 249);
+  border-radius: 15px;
+  
+}
+
+
+input{
+  margin: 20px;
+  margin-top: 1000%; 
+  margin-left: 1%;
+  background: rgb(50, 63, 248);
+  
+}
+
+h2{
+background-color: rgb(168, 173, 237);
+border-radius: 20px;
+position: absolute;
+top: 127%;
+left: 35%;
+font-size: 80px;
+
+}

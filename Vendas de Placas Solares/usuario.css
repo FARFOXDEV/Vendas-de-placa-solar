@@ -1,0 +1,32 @@
+
+body{
+    background-color: #3498db;
+   text-align: center;
+   font-size: 30px;
+}
+
+
+
+button{
+    background: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: ease-out 0.4s;
+  margin-left: 4%;
+  transform: translate(1px);
+  border: 2px solid rgb(255, 254, 254);
+  
+  
+}
+
+button:hover{
+    background-color: rgb(0, 71, 249);
+    border-radius: 15px;
+    
+}
+
+h1{
+    text-align: center;
+}
